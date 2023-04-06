@@ -1,0 +1,27 @@
+{
+  "name": "idmahbub/do-spaces-wordpress-sync",
+  "type": "plugin",
+  "description": "This WordPress plugin syncs your media library with DigitalOcean Spaces Container.",
+  "keywords": [
+    "aws",
+    "s3",
+    "digitalocean",
+    "spaces",
+    "storage",
+    "cloudfiles"
+  ],
+  "homepage": "https://github.com/idmahbub/do-spaces-wordpress-sync",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "idmahbub",
+      "email": "mahbub@wicsolution.com",
+      "homepage": "https://github.com/idmahbub"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "katzgrau/klogger": "dev-master",
+    "league/flysystem-aws-s3-v3": "^1.0"
+  }
+}
